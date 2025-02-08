@@ -10,7 +10,7 @@
   </div>
 </nav>
 <nav id="hamburger-nav">
-  <div class="logo">John Doe</div>
+  <div class="logo">Thu Ta Zaw</div>
   <div class="hamburger-menu">
     <div class="hamburger-icon" (click)="toggleMenu()">
       <span></span>
@@ -27,7 +27,7 @@
 </nav>
 <section id="profile">
   <div class="section__pic-container">
-    <img src="assets/profile-pic.png" alt="John Doe profile picture" />
+    <img src="assets/pf1.png" alt="John Doe profile picture" />
   </div>
   <div class="section__text">
     <p class="section__text__p1">Hello, I'm</p>
@@ -36,7 +36,7 @@
     <div class="btn-container">
       <button
         class="btn btn-color-2"
-        onclick="window.open('./assets/resume-example.pdf')"
+        onclick="window.open('./assets/Resume.pdf')"
       >
         Download CV
       </button>
@@ -66,7 +66,7 @@
   <div class="section-container">
     <div class="section__pic-container">
       <img
-        src="./assets/about-pic.png"
+        src="./assets/pf2.png"
         alt="Profile picture"
         class="about-pic"
       />
@@ -398,12 +398,22 @@
   <div class="contact-info-upper-container">
     <div class="contact-info-container">
       <img
-        src="./assets/phone.png"
+        src="./assets/location.png"
+        alt="location icon"
+        class="icon contact-icon phone-icon"
+      />
+      <p>
+        <a href="https://maps.app.goo.gl/aNJegprAhbwYM8pD6">Bangkok, Thailand</a>
+      </p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/telegram.png"
         alt="Phone icon"
         class="icon contact-icon phone-icon"
       />
       <p>
-        <a [href]="'tel:' + phoneNumber">{{ phoneNumber }}</a>
+        <a href="https://t.me/itz_not_thuta">{{ telegram }}</a>
       </p>
     </div>
     <div class="contact-info-container">

@@ -19,6 +19,6 @@ export class MainComponent {
 
   email = 'kuku.zayn@gmail.com';
 
-  phoneNumber = '+66 800 389 360'
+  telegram = '@itz_not_thuta'
   
 }
