@@ -302,6 +302,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .section-container {
@@ -367,7 +368,7 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
+  width: 85%;
   height: 90%;
 }
 
@@ -419,6 +420,25 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-img:hover {
+  transform: scale(1.05);
 }
 
 /* FOOTER SECTION */
@@ -537,28 +557,28 @@ footer p {
 }
 
 .tech-stack-container {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .tech-stack-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .tech-stack-logos {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .tech-logo {
-    width: 40px; /* Adjust size as needed */
-    height: 40px;
-    transition: transform 0.3s ease;
-  }
-  
-  .tech-logo:hover {
-    transform: scale(1.1); /* Add a hover effect */
-  }
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tech-stack-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tech-stack-logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tech-logo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.tech-logo:hover {
+  transform: scale(1.1); /* Add a hover effect */
+}
