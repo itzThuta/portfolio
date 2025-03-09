@@ -48,7 +48,7 @@ export class MainComponent implements OnInit {
         'The Admin Panel for the Audiobook App is a web-based dashboard that allows administrators to manage users and books efficiently. It provides features to view user lists and book lists, as well as options to create, update, and delete records. Built with React.js for the frontend and powered by Node.js, Express.js, and PostgreSQL for the backend, the panel ensures seamless data management through a secure API. This system helps streamline audiobook content and user administration, making it easier to maintain and organize the platform effectively.',
       technologies: 'ReactJS, Tailwind, Postgresql, NodeJS',
       images: ['./assets/ss4.png', './assets/ss5.png', './assets/ss6.png'],
-      github: '',
+      github: 'https://github.com/itzThuta/admin-audiobook-app',
       demo: '',
       activeIndex: 0, // For tracking active image in carousel
     },
